@@ -25,6 +25,16 @@
     background: #4EC5F7;
     margin-left: 20px;
 }
+.btn_primary-2{
+    color: #FF42A5;
+    padding: 10px 24px;
+    border-radius: 48px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #FFF;
+    margin-top: 15px;
+}
 /***************** common css**************** */
 nav{
     display: flex;
@@ -176,7 +186,97 @@ nav{
     width: 100%;
 }
 
+/* careers section start */
+.careers{
+    background: #FF42A5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+
+.careers .career_img img{
+    display: flex;
+    justify-content: end;
+    width: 550px;
+}
+.careers .career_sub_content{
+    display: flex;
+    justify-content: space-between;
+}
+.careers h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.careers  p{
+    color: #FFF;
+    font-size: 12px;
+}
+.careers .career_sub_content p{
+    color: #FFF;
+    font-size: 15px;;
+    font-weight: 600;
+}
 
 
 
+.careers .career_sub_content .content_2{
+    text-align: right;
+}
 
+/* careers section end */
+.footer{
+    padding: 20px 200px;
+    background: #0B0223;
+}
+
+.footer .footer_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer .footer_img img{
+    width: 86px;
+    height: 40px;
+}
+.footer .footer_img  h3{ 
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer .footer_img h3{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer .footer_img h3 span{
+    color: #F948B2;
+}
+.footer .footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer_content {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+}
+.footer .footer_content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer_content2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 13px;;
+    font-weight: 500;
+}
