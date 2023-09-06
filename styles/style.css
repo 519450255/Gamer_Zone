@@ -101,7 +101,47 @@ nav{
 }
 /* banner section end */
 
+/* gammer section start */
+.gammer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
 
+.gammer img{
+    width: 600px;
+    height: 400px;
+}
+
+.gammer_content{
+    text-align: right;
+
+}
+.gammer_content h2{
+    font-size: 30px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gammer_content h4{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+}
+.gammer_content p{
+    color: #534C64;
+    font-size: 20px;
+    margin: 10px;
+}
+.gammer_content h5{
+    margin: 10px;
+    color: #534C64;
+    font-size: 15px;
+
+}
+/* gammer section end */
 
 
 
