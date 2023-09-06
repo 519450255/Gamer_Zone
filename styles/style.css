@@ -142,14 +142,39 @@ nav{
 
 }
 /* gammer section end */
+.online_game_content{
+    text-align: center;
+    align-items: center;
+}
+.online_game_content h1{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+.online_game_content h1 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+.online_game_content p{
+    color: #534C64;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+}
 
-
-
-
-
-
-
-
+.online_game_img{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    padding: 20px 200px;
+}
+.online_game_img img{
+    width: 100%;
+}
 
 
 
