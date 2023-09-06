@@ -39,7 +39,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background: #85abb145;
     padding: 20px 200px;
 }
 .nav_logo_part{
@@ -226,22 +225,60 @@ nav{
 }
 
 /* careers section end */
-.footer{
-    padding: 20px 200px;
-    background: #0B0223;
-}
 
-.footer .footer_img {
+/* team section start */
+
+.team .sub_team{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+.team .sub_team .sub_team_content1{
+    display: flex;
     align-items: center;
     gap: 10px;
 }
-.footer .footer_img img{
-    width: 86px;
-    height: 40px;
+.team .sub_team .sub_team_content1 img {
+    width: 50px;
 }
-.footer .footer_img  h3{ 
+.team .sub_team .sub_team_content1 p {
+    color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+.team .sub_team .sub_team_content2{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.team .sub_team .sub_team_content2 img {
+    width: 50px;
+}
+.team .sub_team .sub_team_content2 p {
+    color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* team section end */
+
+ /* footer section start*/
+ .footer{
+     padding: 20px 200px;
+     background: #0B0223;
+    }
+    
+    .footer .footer_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer .footer_img img{
+        width: 86px;
+        height: 40px;
+    }
+    .footer .footer_img  h3{ 
     font-size: 45px;
     font-weight: 700;
 }
@@ -280,3 +317,4 @@ nav{
     font-size: 13px;;
     font-weight: 500;
 }
+/* footer section end */
